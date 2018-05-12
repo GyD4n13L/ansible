@@ -9,4 +9,4 @@ sudo apt-get install ansible -y
 sudo apt-get install ssh -y
 git clone https://github.com/andreipak/wordpress-ansible.git
 cd wordpress-ansible
-sudo ansible-playbook playbook.yml -i hosts -e mysql_root_password=123123
+sudo ansible-playbook playbook.yml -i hosts -e mysql_root_password=123456
